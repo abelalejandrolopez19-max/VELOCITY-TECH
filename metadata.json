@@ -1,0 +1,6 @@
+{
+  "name": "Velocity Tech - Agencia de Marketing Digital",
+  "description": "Sitio corporativo de Velocity Tech con Consola B2B interactiva, Auditoría Estratégica con IA Geminis y Simulador de ROI SEM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
