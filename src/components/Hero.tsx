@@ -31,7 +31,7 @@ export default function Hero({ onExploreServices, onOpenAudit }: HeroProps) {
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
           </span>
           <span className="text-[11px] font-bold uppercase tracking-widest text-[#adc7ff] font-display">
-            Velocity Tech • Agencia de Rendimiento Digital
+            Abel Marketing • Agencia de Rendimiento Digital
           </span>
         </motion.div>
 

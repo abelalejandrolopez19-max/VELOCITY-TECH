@@ -14,7 +14,7 @@ export default function App() {
 
   // Local storage CRM persistence engine
   const [leads, setLeads] = React.useState<Lead[]>(() => {
-    const saved = localStorage.getItem("velocity_leads_db");
+    const saved = localStorage.getItem("abel_leads_db");
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -26,7 +26,7 @@ export default function App() {
   });
 
   React.useEffect(() => {
-    localStorage.setItem("velocity_leads_db", JSON.stringify(leads));
+    localStorage.setItem("abel_leads_db", JSON.stringify(leads));
   }, [leads]);
 
   // Lead handlers
@@ -89,7 +89,7 @@ export default function App() {
           {/* Core Services catalog */}
           <Services />
 
-          {/* Why Velocity Tech differentiate factors */}
+          {/* Why Abel Marketing differentiate factors */}
           <WhyUs />
 
           {/* Accordion list FAQ */}
@@ -113,14 +113,14 @@ export default function App() {
       <footer className="bg-vtech-black/90 py-14 text-center border-t border-white/5 flex flex-col items-center justify-center select-none px-6">
         <div className="flex items-center gap-2 mb-4">
           <img 
-            alt="Velocity tech small layout" 
+            alt="Abel Marketing small layout" 
             className="h-6 w-auto opacity-70 scale-90"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA540y5EEwb0UfvS3yErLwDXsImeorq3aBNk-QD-pylQigl8RvHFruS5QJggX7J8FXG8o5iXNCeFMhPVvF6ltOUcF2IQsG6Zrzu_mIbQT4dZD5ZRCNjVdLikZjBE7C1P5QP2iJpXbSO6EsBVnyrJ2Jk18TxdktOnb_kn5PFTVHnmKORq323nTrljAtU8C2jzod9XsBx8e3RzHtfVVqaSzcxGhVFv1XtB4Kto5SQo_rC6cETyIkV0sEODSiVRypJEkkYs02-8mxMvhdY"
+            src="/brand/logo.png"
           />
-          <span className="text-xs font-bold tracking-widest text-[#adc7ff] font-display uppercase">VELOCITY TECH HIGH-PERFORMANCE</span>
+          <span className="text-xs font-bold tracking-widest text-[#adc7ff] font-display uppercase">ABEL MARKETING HIGH-PERFORMANCE</span>
         </div>
         <p className="text-[10px] text-gray-500 font-mono leading-relaxed max-w-md">
-          © 2026 Velocity Tech S.L. Todos los derechos reservados.
+          © 2026 Abel Marketing. Todos los derechos reservados.
         </p>
       </footer>
     </div>

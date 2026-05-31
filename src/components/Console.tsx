@@ -185,7 +185,7 @@ export default function Console({ leads, onUpdateLeadStatus, onAddLeadNotes }: C
       {/* Upper Navigation Tabs */}
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-10 gap-6">
         <div>
-          <span className="text-xs font-mono font-bold text-vtech-blue tracking-widest uppercase">CONSOLA ESTRATÉGICA CORPORATIVA DE VELOCITY TECH</span>
+          <span className="text-xs font-mono font-bold text-vtech-blue tracking-widest uppercase">CONSOLA ESTRATÉGICA CORPORATIVA DE ABEL MARKETING</span>
           <h2 className="text-3xl font-extrabold font-display text-white mt-1">Portal Operativo B2B</h2>
         </div>
 
@@ -356,7 +356,7 @@ export default function Console({ leads, onUpdateLeadStatus, onAddLeadNotes }: C
                       <BrainCircuit size={20} className="text-vtech-blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-mono font-bold text-gray-400 uppercase tracking-widest leading-relaxed">VELOCITY INTEL ENGINE RUNNING</h4>
+                      <h4 className="text-xs font-mono font-bold text-gray-400 uppercase tracking-widest leading-relaxed">ABEL INTEL ENGINE RUNNING</h4>
                       <p className="text-sm font-bold text-white font-display mt-2 italic transition-all">{loadingStep}</p>
                     </div>
                     <div className="h-1 bg-white/10 rounded-full overflow-hidden w-40 mx-auto">
@@ -394,7 +394,7 @@ export default function Console({ leads, onUpdateLeadStatus, onAddLeadNotes }: C
                         </div>
                         <div>
                           <h4 className="text-sm font-bold text-white font-display">Nivel de Madurez Digital</h4>
-                          <p className="text-[11px] text-gray-400">Puntaje global según estándares Velocity Tech.</p>
+                          <p className="text-[11px] text-gray-400">Puntaje global según estándares Abel Marketing.</p>
                         </div>
                       </div>
 
@@ -685,7 +685,7 @@ export default function Console({ leads, onUpdateLeadStatus, onAddLeadNotes }: C
                   </div>
 
                   <div className="p-3.5 bg-vtech-dark rounded-xl border border-white/5 text-[10px] text-gray-400 leading-relaxed mt-2">
-                    📈 <strong>Compounding Velocity Effect:</strong> Nuestra optimización recurrente del embudo orgánico incrementa el CTR e históricamente aumenta el volumen de ingresos un 22% por mes para budgets comparables.
+                    📈 <strong>Compounding Growth Effect:</strong> Nuestra optimización recurrente del embudo orgánico incrementa el CTR e históricamente aumenta el volumen de ingresos un 22% por mes para budgets comparables.
                   </div>
                 </div>
 
