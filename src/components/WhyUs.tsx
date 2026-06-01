@@ -45,7 +45,7 @@ export default function WhyUs() {
             transition={{ duration: 0.5 }}
             className="text-3xl sm:text-4xl font-extrabold mb-6 font-display"
           >
-            ¿Por qué <span className="text-vtech-blue">Abel Marketing</span>?
+            ¿Por qué <span className="text-vtech-blue">Velocity Tech</span>?
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -97,16 +97,16 @@ export default function WhyUs() {
           >
             <div className="relative p-1 bg-gradient-to-tr from-vtech-blue/30 via-white/5 to-vtech-blue/20 rounded-full">
               <img 
-                alt="Abel Logo Shield" 
+                alt="Velocity Logo Shield" 
                 className="w-full h-auto object-center animate-glow-pulse" 
-                src="/brand/logo.png"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA540y5EEwb0UfvS3yErLwDXsImeorq3aBNk-QD-pylQigl8RvHFruS5QJggX7J8FXG8o5iXNCeFMhPVvF6ltOUcF2IQsG6Zrzu_mIbQT4dZD5ZRCNjVdLikZjBE7C1P5QP2iJpXbSO6EsBVnyrJ2Jk18TxdktOnb_kn5PFTVHnmKORq323nTrljAtU8C2jzod9XsBx8e3RzHtfVVqaSzcxGhVFv1XtB4Kto5SQo_rC6cETyIkV0sEODSiVRypJEkkYs02-8mxMvhdY"
               />
             </div>
 
             {/* Glowing Brand Accents overlay */}
             <div className="absolute top-4 left-4 flex gap-1 items-center bg-black/70 backdrop-blur-md border border-white/10 rounded-full py-1.5 px-3.5 shadow-lg">
               <ShieldCheck size={14} className="text-[#adc7ff]" />
-              <span className="text-[10px] font-bold font-mono tracking-wider uppercase text-gray-200">Abel Shield Active</span>
+              <span className="text-[10px] font-bold font-mono tracking-wider uppercase text-gray-200">Velocity Shield Active</span>
             </div>
           </motion.div>
         </div>

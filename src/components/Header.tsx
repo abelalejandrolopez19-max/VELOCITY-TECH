@@ -42,14 +42,14 @@ export default function Header({ activeTab, setActiveTab, onOpenConsultation }: 
           <div className="relative">
             <div className="absolute inset-0 bg-blue-600/30 rounded-full blur-md group-hover:bg-blue-600/50 transition-all"></div>
             <img 
-              alt="Abel Marketing Logo" 
+              alt="Velocity Tech Logo" 
               className="h-10 w-10 relative z-10 transition-transform duration-500 group-hover:rotate-12" 
-              src="/brand/logo.png"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA540y5EEwb0UfvS3yErLwDXsImeorq3aBNk-QD-pylQigl8RvHFruS5QJggX7J8FXG8o5iXNCeFMhPVvF6ltOUcF2IQsG6Zrzu_mIbQT4dZD5ZRCNjVdLikZjBE7C1P5QP2iJpXbSO6EsBVnyrJ2Jk18TxdktOnb_kn5PFTVHnmKORq323nTrljAtU8C2jzod9XsBx8e3RzHtfVVqaSzcxGhVFv1XtB4Kto5SQo_rC6cETyIkV0sEODSiVRypJEkkYs02-8mxMvhdY"
             />
           </div>
           <div>
             <span className="text-xl font-extrabold tracking-tighter text-white font-display">
-              ABEL<span className="text-vtech-blue"> MARKETING</span>
+              VELOCITY<span className="text-vtech-blue">TECH</span>
             </span>
             <div className="text-[9px] text-[#adc7ff] tracking-widest font-mono font-bold leading-none">HIGH-PERFORMANCE</div>
           </div>
